@@ -4,304 +4,205 @@
 
 <head>
 
-<meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+  <title>Impacto COVID19 en e-commerce: América Latina</title>
+
+  <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+  <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+  <script src="site_libs/navigation-1.1/tabsets.js"></script>
+  <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+  <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+  <script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+  <script src="site_libs/plotly-binding-4.9.2/plotly.js"></script>
+  <script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+  <link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+  <script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+  <link href="site_libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+  <script src="site_libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+  <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+  <script src="site_libs/datatables-binding-0.9/datatables.js"></script>
+  <link href="site_libs/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+  <link href="site_libs/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet" />
+  <script src="site_libs/dt-core-1.10.19/js/jquery.dataTables.min.js"></script>
+  <link href="Css/style.css" rel="stylesheet" />
 
 
-
-
-<title>Impacto COVID19 en e-commerce: Latin América</title>
-
-<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
-<script src="site_libs/plotly-binding-4.9.2/plotly.js"></script>
-<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
-<link href="site_libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="site_libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.9/datatables.js"></script>
-<link href="site_libs/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="site_libs/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="site_libs/dt-core-1.10.19/js/jquery.dataTables.min.js"></script>
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
-
-
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-</style>
-
-
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
+  <script type="text/javascript">
+    if (window.hljs) {
+      hljs.configure({
+        languages: []
+      });
+      hljs.initHighlightingOnLoad();
+      if (document.readyState && document.readyState === "complete") {
+        window.setTimeout(function () {
+          hljs.initHighlighting();
+        }, 0);
+      }
+    }
+  </script>
 
 </head>
 
 <body>
 
+   
+  <div class="fluid-row" id="header">
+    <div class="container-fluid main-container">
 
-<div class="container-fluid main-container">
+      <div class="logos">
+        <img src="Imagenes/LogoPayU.png" height="40px" alt="PayU">
+        <img src="Imagenes/logoFidelio.png" height="20px" alt="Fidelio">
+        <a href="about.html">ACERCA DE NOSOTROS</a>
+      </div>
+ 
+      <h1 class="title toc-ignore">Impacto COVID19 en e-commerce: <b>América Latina</b></h1>
+      <h4 class="date">Abril 13, 2020 | Lectura 7 min </h4>
+      <br>
+      <p>PayU y FIDELIO hacen este reporte para ayudar de manera gratuita a nuestros clientes, aliados y a la comunidad
+        empresarial con una perspectiva y tendencias actualizadas del impacto de la pandemia CoVid19 en el e-commerce en
+        latinoamérica a partir de la información de 4 millones de transacciones en 28 mil empresas de Argentina, Brasil,
+        Colombia, Chile, México y Perú. 
+      </p>
 
-
-
-
-<div class="fluid-row" id="header">
-
-
-
-<h1 class="title toc-ignore">Impacto COVID19 en e-commerce: Latin América</h1>
-<h4 class="date">Abril 13, 2020 | Lectura 7 min |</h4>
-
-</div>
-
-
-<p>PayU y FIDELIO hacen este reporte para ayudar de manera gratuita a nuestros clientes, aliados y a la comunidad empresarial con una perspectiva y tendencias actualizadas del impacto de la pandemia CoVid19 en el e-commerce en latinoamérica a partir de la información de 4 millones de transacciones en 28 mil empresas de Argentina, Brasil, Colombia, Chile, México y Perú. <a href="about.html">Leer más</a></p>
-<div id="overview" class="section level1">
-<h1>Overview</h1>
-<div id="htmlwidget-46a791be39a54bd9bc1d" style="width:100%;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-46a791be39a54bd9bc1d">{"x":{"data":[{"x":["23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[0,0,0,0,0],"showlegend":true,"mode":"text+markers","marker":{"color":"rgba(0,0,0,1)","symbol":"triangle-down","size":15,"line":{"color":"rgba(0,0,0,1)"}},"text":["A","B","C","D","E"],"textposition":["top center","top center","top center","top center","top center"],"hovertext":["<b>Feb 26<\/b>:<br>Latinoamérica reporta el <br>primer caso de COVID-19 en São Paulo","Primeros casos reportados en <br>Colombia, Argentina, Costa Rica, República<br> Dominicana y Paraguay","<b>Mar 11<\/b><br>La OMS declara a COVID-19<br> como una pandemia","<b>Mar 16<\/b><br>Ecuador y Perú implementan estados <br>de cuarentena. Colombia y Costa Rica cierran sus fronteras.<br>Jair Bolsonaro, presidente de Brasil, <br>incentiva las reuniones en masa.","<b>Mar 26<\/b><br>Estados Unidos lidera el número<br> de casos confirmados en el mundo"],"hoverinfo":["text","text","text","text","text"],"name":"Acontecimientos","type":"scatter","textfont":{"color":"rgba(0,0,0,1)"},"error_y":{"color":"rgba(0,0,0,1)"},"error_x":{"color":"rgba(0,0,0,1)"},"line":{"color":"rgba(0,0,0,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[13938898.5508833,12386187.3466412,13053283.0953553,12341189.9741202,11217129.035049,8418859.137021,4957984.085174,759334.160791],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Aerolineas","marker":{"color":"rgba(131,31,130,1)","symbol":"circle","line":{"color":"rgba(131,31,130,1)"}},"textfont":{"color":"rgba(131,31,130,1)"},"error_y":{"color":"rgba(131,31,130,1)"},"error_x":{"color":"rgba(131,31,130,1)"},"line":{"color":"rgba(131,31,130,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[3354671.77085414,2989914.89051478,3352962.89359918,3331375.9478319,2670528.193118,2828872.487452,1865360.785621,453988.130813],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Agencias de viaje","marker":{"color":"rgba(0,72,82,1)","symbol":"circle","line":{"color":"rgba(0,72,82,1)"}},"textfont":{"color":"rgba(0,72,82,1)"},"error_y":{"color":"rgba(0,72,82,1)"},"error_x":{"color":"rgba(0,72,82,1)"},"line":{"color":"rgba(0,72,82,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1220308.45860989,947418.597526304,756578.431805806,697816.519858001,1403300.344656,1634788.810446,1480971.69403,1466972.156149],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Asociaciones y organizaciones","marker":{"color":"rgba(239,125,0,1)","symbol":"circle","line":{"color":"rgba(239,125,0,1)"}},"textfont":{"color":"rgba(239,125,0,1)"},"error_y":{"color":"rgba(239,125,0,1)"},"error_x":{"color":"rgba(239,125,0,1)"},"line":{"color":"rgba(239,125,0,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1569873.93740039,1651929.26332962,1720042.55294294,1398542.91412706,1912950.597039,1788347.948161,1688456.809806,1770651.194849],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Comidas, tiendas y restaurantes","marker":{"color":"rgba(72,165,217,1)","symbol":"circle","line":{"color":"rgba(72,165,217,1)"}},"textfont":{"color":"rgba(72,165,217,1)"},"error_y":{"color":"rgba(72,165,217,1)"},"error_x":{"color":"rgba(72,165,217,1)"},"line":{"color":"rgba(72,165,217,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1769730.97775702,1732082.56647385,1615897.63850642,1528486.6154627,1426952.708796,1772015.617885,1988202.493635,1487385.124852],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"E-Commerce","marker":{"color":"rgba(215,0,127,1)","symbol":"circle","line":{"color":"rgba(215,0,127,1)"}},"textfont":{"color":"rgba(215,0,127,1)"},"error_y":{"color":"rgba(215,0,127,1)"},"error_x":{"color":"rgba(215,0,127,1)"},"line":{"color":"rgba(215,0,127,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1824805.71534134,2230543.27810131,4750476.25015474,2495519.72760261,2682252.720352,2075369.420214,750651.984905,392385.8607],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Hoteles","marker":{"color":"rgba(67,143,41,1)","symbol":"circle","line":{"color":"rgba(67,143,41,1)"}},"textfont":{"color":"rgba(67,143,41,1)"},"error_y":{"color":"rgba(67,143,41,1)"},"error_x":{"color":"rgba(67,143,41,1)"},"line":{"color":"rgba(67,143,41,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[7504518.09452814,8299174.20165073,6968951.48503939,7591548.31128174,9263028.716964,9266690.278962,7964051.240672,10666678.618973],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Retail","marker":{"color":"rgba(70,172,188,1)","symbol":"circle","line":{"color":"rgba(70,172,188,1)"}},"textfont":{"color":"rgba(70,172,188,1)"},"error_y":{"color":"rgba(70,172,188,1)"},"error_x":{"color":"rgba(70,172,188,1)"},"line":{"color":"rgba(70,172,188,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[21154223.5221973,17751979.627951,18193703.7312682,20979481.0690836,19934612.105812,19427373.429131,20042055.509585,18165906.699005],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Tecnología / telecomunicaciones","marker":{"color":"rgba(166,195,7,1)","symbol":"circle","line":{"color":"rgba(166,195,7,1)"}},"textfont":{"color":"rgba(166,195,7,1)"},"error_y":{"color":"rgba(166,195,7,1)"},"error_x":{"color":"rgba(166,195,7,1)"},"line":{"color":"rgba(166,195,7,1)"},"xaxis":"x","yaxis":"y2","frame":null}],"layout":{"xaxis":{"domain":[0,1],"automargin":true,"title":"","zeroline":false,"showline":false,"showticklabels":true,"showgrid":false,"type":"category","categoryorder":"array","categoryarray":["03-09 Feb 2019","10-16 Feb 2019","17-23 Feb 2019","24-02 Mar 2019","03-09 Mar 2019","10-16 Mar 2019","17-23 Mar 2019","24-30 Mar 2019","01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020","29-31 Mar 2020"],"anchor":"y2"},"yaxis2":{"domain":[0,0.78],"automargin":true,"showticklabels":false,"anchor":"x"},"yaxis":{"domain":[0.82,1],"automargin":true,"zeroline":false,"showline":false,"showticklabels":false,"showgrid":false,"anchor":"x"},"annotations":[],"shapes":[],"images":[],"margin":{"b":50,"l":0,"t":50,"r":0,"pad":0},"hovermode":"closest","showlegend":true,"title":{"text":"Ventas de industrias con mayores cambios"}},"attrs":{"356c7bccc5c":{"x":{},"y":{},"showlegend":true,"mode":"text","marker":{"size":15},"text":{},"textposition":"top center","hovertext":{},"hoverinfo":"text","name":"Acontecimientos","color":["black"],"symbol":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"symbols":"triangle-down","type":"scatter"},"356c4152f31":{"x":{},"y":{},"mode":"lines","hovertemplate":"Semana: %{x}","color":{},"symbol":{},"colors":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"symbols":{},"type":"scatter","inherit":true}},"source":"A","config":{"showSendToCloud":false},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"subplot":true,"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
-<ul>
-<li>Toda la operación cayó un 4% de febrero de 2020 a marzo de 2020.</li>
-</ul>
-</div>
-<div id="países" class="section level1">
-<h1>Países</h1>
-<div id="htmlwidget-fc1359ce2056fcaddfad" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-fc1359ce2056fcaddfad">{"x":{"filter":"none","data":[["Perú","Argentina","Chile","México","Colombia","Brazil"],[0.0510089740335619,0.0398996441293386,0.015663830645832,0.0732906948921115,0.796485538115114,0.0236513181840416],[-0.257328038304768,-0.0889900650773007,-0.0398367902548463,-0.0310729585429784,-0.024112938188054,0.00584239121940056],[0.115762895893101,0.072837111773387,0.454584363823857,0.303763071406177,0.0709928875010124,-0.217676626494772]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>País<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"dom":"tr","scrollX":true,"columnDefs":[{"className":"dt-right","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
-<ul>
-<li>YoM representa el cambio porcentual de Marzo de 2019 respecto a Marzo de 2020.</li>
-<li>MoM represente el cambio porcentual de Febrero de 2020 respecto a Marzo de 2020.</li>
-<li>La participación es el porcentaje que represente esa categoría respecto al total de las ventas.</li>
-</ul>
-</div>
-<div id="industrias" class="section level1">
-<h1>Industrias</h1>
-<div id="htmlwidget-74406a7bc95bd1be1a48" style="width:100%;height:576px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-74406a7bc95bd1be1a48">{"x":{"visdat":{"356c655c454a":["function () ","plotlyVisDat"]},"cur_data":"356c655c454a","attrs":{"356c655c454a":{"x":{},"y":{},"hovertemplate":{},"color":{},"colors":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":50,"l":0,"t":50,"r":0,"pad":0},"title":{"text":"Cambio (%) de Ventas por Industria (Feb a Mar 2020)"},"showlegend":false,"xaxis":{"domain":[0,1],"automargin":true,"showticklabels":true,"title":"","tickformat":"%"},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Aerolineas","Hoteles","Publicaciones y papelería","Juegos de azar","Agencias de viaje","Flores","Estaciones de servicio y autos","Servicios de transporte","Educación y deportes","Seguros","Servicios de agricultura e industrias","Servicios especializados","Arquitectura, construcción e ingeniería","Entretenimiento","Moda y calzado","Ventas en general","Miscelanea y otros","Finca raíz","Bienes para el hogar","Maquinaria, equipos y mobiliarios","Tecnología / telecomunicaciones","Servicios médicos y clínicos","Servicios financieros","Impuestos y servicios públicos","E-Commerce","Comidas, tiendas y restaurantes","Retail","Asociaciones y organizaciones"]},"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[-0.0637314675213179,-0.0680555560917513,-0.0803813094373093,-0.148140947408906,-0.16765071760679,-0.17080217458664,-0.177703029374772,-0.181414054589825,-0.191868356856633,-0.302983655464718,-0.314774637065966,-0.345330219123723,-0.386175366328229,-0.439061320396054,-0.449038928815131,-0.458072721727148,-0.508398761913924],"y":["Miscelanea y otros","Ventas en general","Moda y calzado","Entretenimiento","Arquitectura, construcción e ingeniería","Servicios especializados","Servicios de agricultura e industrias","Seguros","Educación y deportes","Servicios de transporte","Estaciones de servicio y autos","Flores","Agencias de viaje","Juegos de azar","Publicaciones y papelería","Hoteles","Aerolineas"],"hovertemplate":["Industria: Miscelanea y otros: -6%","Industria: Ventas en general: -7%","Industria: Moda y calzado: -8%","Industria: Entretenimiento: -15%","Industria: Arquitectura, construcción e ingeniería: -17%","Industria: Servicios especializados: -17%","Industria: Servicios de agricultura e industrias: -18%","Industria: Seguros: -18%","Industria: Educación y deportes: -19%","Industria: Servicios de transporte: -30%","Industria: Estaciones de servicio y autos: -31%","Industria: Flores: -35%","Industria: Agencias de viaje: -39%","Industria: Juegos de azar: -44%","Industria: Publicaciones y papelería: -45%","Industria: Hoteles: -46%","Industria: Aerolineas: -51%"],"type":"bar","orientation":"h","name":"(-%)","marker":{"color":"rgba(131,31,130,1)","line":{"color":"rgba(131,31,130,1)"}},"textfont":{"color":"rgba(131,31,130,1)"},"error_y":{"color":"rgba(131,31,130,1)"},"error_x":{"color":"rgba(131,31,130,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.849530673368722,0.415870651635155,0.336641583895457,0.223469398883862,0.139707353054212,0.114457205252318,0.105327559348279,0.102942522675109,0.0678932251738986,0.0328526516865493,0.018326021005491],"y":["Asociaciones y organizaciones","Retail","Comidas, tiendas y restaurantes","E-Commerce","Impuestos y servicios públicos","Servicios financieros","Servicios médicos y clínicos","Tecnología / telecomunicaciones","Maquinaria, equipos y mobiliarios","Bienes para el hogar","Finca raíz"],"hovertemplate":["Industria: Asociaciones y organizaciones: 85%","Industria: Retail: 42%","Industria: Comidas, tiendas y restaurantes: 34%","Industria: E-Commerce: 22%","Industria: Impuestos y servicios públicos: 14%","Industria: Servicios financieros: 11%","Industria: Servicios médicos y clínicos: 11%","Industria: Tecnología / telecomunicaciones: 10%","Industria: Maquinaria, equipos y mobiliarios: 7%","Industria: Bienes para el hogar: 3%","Industria: Finca raíz: 2%"],"type":"bar","orientation":"h","name":"(+%)","marker":{"color":"rgba(166,195,7,1)","line":{"color":"rgba(166,195,7,1)"}},"textfont":{"color":"rgba(166,195,7,1)"},"error_y":{"color":"rgba(166,195,7,1)"},"error_x":{"color":"rgba(166,195,7,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
-<div id="industrias-con-mayor-crecimiento" class="section level2">
-<h2>Industrias con mayor crecimiento</h2>
-<div id="htmlwidget-bb7c9241384a23ba829c" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bb7c9241384a23ba829c">{"x":{"filter":"none","data":[["Asociaciones y organizaciones<b>*<\/b>","Retail","Comidas, tiendas y restaurantes","E-Commerce","Impuestos y servicios públicos<b>**<\/b>","Servicios financieros","Servicios médicos y clínicos"],[0.0157528268572082,0.101092560430864,0.019928046855214,0.0191205446897395,0.0554586981859531,0.160412060682722,0.0828156067932481],[0.849530673368722,0.415870651635156,0.336641583895457,0.223469398883861,0.139707353054212,0.114457205252318,0.105327559348279],[-0.367682797449307,0.676430941063906,0.552815313159113,0.572346727069703,-0.248654729254988,0.491705221109844,0.37321533586368]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Industria<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"dom":"tr","scrollX":true,"columnDefs":[{"className":"dt-right","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
-<ul>
-<li>El consumo de alimentos, la adquisión de bienes por internet, el consumo en grandes cadenas, la solicitud de productos financieros y la solicitud de servicios médicos fueron los protagonistas en crecimiento durante el primer mes de pandemia. <b>Todos estos servicios son básicos o digitales</b>.</li>
-<li><b>(*)</b> Las asociaciones y organizaciones tuvieron un incremento de Febrero 2020 a Marzo 2020 proveniente principalmente al vencimiento de suscripciones anuales a comienzo de mes. Sin embargo, el comparativo de Marzo de 2020 frente a Marzo del año anterior fue significativamente inferior (-37%), razón por la que se percibe somo un potencial perjudicado de la coyuntura.</li>
-<li><b>(**)</b> Los pagos de impuestos realizados usualmente en Marzo de cada año se vieron postergados por orden del Estado lo que justifica que haya tenido una caída significativa frente al año pasado (-25%); razón por la que también resalta como un evidente perjudicado de la coyuntura.</li>
-</ul>
-</div>
-<div id="industrias-con-menor-crecimiento-i" class="section level2">
-<h2>Industrias con menor crecimiento (I)</h2>
-<div id="htmlwidget-4519d57a2ac999a329e3" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4519d57a2ac999a329e3">{"x":{"filter":"none","data":[["Aerolineas","Hoteles","Publicaciones y papelería","Juegos de azar","Agencias de viaje","Flores"],[0.0597862986398828,0.0144014105176084,0.00487488722426017,0.00562078948713312,0.0188055829485164,0.000349670824808726],[-0.508398761913924,-0.458072721727148,-0.449038928815131,-0.439061320396054,-0.386175366328229,-0.345330219123723],[-0.563577105583077,-0.477142676542087,-0.0224202093371995,-0.141559688421154,-0.290550935931792,-0.254849025950344]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Industria<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"dom":"tr","scrollX":true,"columnDefs":[{"className":"dt-right","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
-<ul>
-<li>El impacto en Agencias de viaje, Hoteles y Aerolíneas fue explicado en parte por su capacidad de esparcir el virus a nivel global y en parte porque esta industria depende del precio del dólar y <b>la tasa representativa del mercado (TRM o USDCOP) sufrió un salto significativo durante Marzo</b> (subió más de +15%); lo que encareció los servicios y cerró aún más las posibilidades de compra.</li>
-<li>El cambio en publicaciones y papelería entre febrero y marzo proviene principalmente de la inversión realizada en febrero para adquirir útiles escolares y universitarios. Igualmente, las impresiones de fotocopias en las universidades se vieron afectadas por el cierre de las instituciones.</li>
-<li>La industria de juegos de azar sufrió una caída marcada en consecuencia de la cancelación de los eventos deportivos.</li>
-</ul>
-</div>
-<div id="industrias-con-menor-crecimiento-ii" class="section level2">
-<h2>Industrias con menor crecimiento (II)</h2>
-<div id="htmlwidget-a1a387dff1a2c04a8213" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a1a387dff1a2c04a8213">{"x":{"filter":"none","data":[["Estaciones de servicio y autos","Servicios de transporte","Educación y deportes","Seguros","Servicios de agricultura e industrias","Servicios especializados"],[0.00199750526457506,0.0226130236868264,0.0362912590351925,0.0171276946002132,0.00374326875228761,0.0221557738383935],[-0.314774637065966,-0.302983655464718,-0.191868356856632,-0.181414054589824,-0.177703029374771,-0.17080217458664],[-0.23238742449784,0.0968689315283169,0.0724921920056736,-0.141251415218969,0.297295908288489,-0.0690866670620883]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Industria<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"dom":"tr","scrollX":true,"columnDefs":[{"className":"dt-right","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
-<ul>
-<li>Las actividades cotidianas como el transporte, la educación, los deportes, la industria y la construcción tuvieron alteraciones drásticas en su operación.</li>
-</ul>
-</div>
-</div>
-<div id="apreciaciones" class="section level1">
-<h1>Apreciaciones</h1>
-<p>Esta coyuntura obligó a la sociedad a reinventarse. Las empresas utilizan el teletrabajo como medio para continuar sus operaciones y cada vez más negocios abren las puertas de su tienda digital para el beneficio de su comunidad.</p>
-</div>
-<div id="ficha-técnica" class="section level1">
-<h1>Ficha técnica</h1>
-<ul>
-<li>La información presentada está basada en las ventas de comercios de PayU Latam durante el mes de Marzo de 2019, Febrero de 2020 y Marzo de 2020. Data de <a href="https://www.payulatam.com/co/">PayU Colombia</a>, análisis de <a href="http://fidelio.com.co">FIDELIO</a>.</li>
-</ul>
-<p><br> <br> <br></p>
-</div>
+      <a href="about.html">ACERCA DE NOSOTROS</a>
+      <a href="https://colombia.payulatam.com/juntos-somos-mas-fuertes-registro-merchants" style="text-decoration: none; font-weight: bold; font-family: 'Lato', sans-serif; font-size: 18px; color: #FFF; font-style: normal" target="_blank"><strong>Saber más</strong></a>
+    </div>  
+  </div>
 
 
+  <div class="container-fluid main-container">
+ 
+    <div id="overview" class="section level1">
+      <h1>Overview</h1>
+      <div id="htmlwidget-46a791be39a54bd9bc1d" style="width:100%;height:480px;" class="plotly html-widget"></div>
+      <script type="application/json" data-for="htmlwidget-46a791be39a54bd9bc1d">{"x":{"data":[{"x":["23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[0,0,0,0,0],"showlegend":true,"mode":"text+markers","marker":{"color":"rgba(0,0,0,1)","symbol":"triangle-down","size":15,"line":{"color":"rgba(0,0,0,1)"}},"text":["A","B","C","D","E"],"textposition":["top center","top center","top center","top center","top center"],"hovertext":["<b>Feb 26<\/b>:<br>Latinoamérica reporta el <br>primer caso de COVID-19 en São Paulo","Primeros casos reportados en <br>Colombia, Argentina, Costa Rica, República<br> Dominicana y Paraguay","<b>Mar 11<\/b><br>La OMS declara a COVID-19<br> como una pandemia","<b>Mar 16<\/b><br>Ecuador y Perú implementan estados <br>de cuarentena. Colombia y Costa Rica cierran sus fronteras.<br>Jair Bolsonaro, presidente de Brasil, <br>incentiva las reuniones en masa.","<b>Mar 26<\/b><br>Estados Unidos lidera el número<br> de casos confirmados en el mundo"],"hoverinfo":["text","text","text","text","text"],"name":"Acontecimientos","type":"scatter","textfont":{"color":"rgba(0,0,0,1)"},"error_y":{"color":"rgba(0,0,0,1)"},"error_x":{"color":"rgba(0,0,0,1)"},"line":{"color":"rgba(0,0,0,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[13938898.5508833,12386187.3466412,13053283.0953553,12341189.9741202,11217129.035049,8418859.137021,4957984.085174,759334.160791],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Aerolineas","marker":{"color":"rgba(131,31,130,1)","symbol":"circle","line":{"color":"rgba(131,31,130,1)"}},"textfont":{"color":"rgba(131,31,130,1)"},"error_y":{"color":"rgba(131,31,130,1)"},"error_x":{"color":"rgba(131,31,130,1)"},"line":{"color":"rgba(131,31,130,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[3354671.77085414,2989914.89051478,3352962.89359918,3331375.9478319,2670528.193118,2828872.487452,1865360.785621,453988.130813],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Agencias de viaje","marker":{"color":"rgba(0,72,82,1)","symbol":"circle","line":{"color":"rgba(0,72,82,1)"}},"textfont":{"color":"rgba(0,72,82,1)"},"error_y":{"color":"rgba(0,72,82,1)"},"error_x":{"color":"rgba(0,72,82,1)"},"line":{"color":"rgba(0,72,82,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1220308.45860989,947418.597526304,756578.431805806,697816.519858001,1403300.344656,1634788.810446,1480971.69403,1466972.156149],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Asociaciones y organizaciones","marker":{"color":"rgba(239,125,0,1)","symbol":"circle","line":{"color":"rgba(239,125,0,1)"}},"textfont":{"color":"rgba(239,125,0,1)"},"error_y":{"color":"rgba(239,125,0,1)"},"error_x":{"color":"rgba(239,125,0,1)"},"line":{"color":"rgba(239,125,0,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1569873.93740039,1651929.26332962,1720042.55294294,1398542.91412706,1912950.597039,1788347.948161,1688456.809806,1770651.194849],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Comidas, tiendas y restaurantes","marker":{"color":"rgba(72,165,217,1)","symbol":"circle","line":{"color":"rgba(72,165,217,1)"}},"textfont":{"color":"rgba(72,165,217,1)"},"error_y":{"color":"rgba(72,165,217,1)"},"error_x":{"color":"rgba(72,165,217,1)"},"line":{"color":"rgba(72,165,217,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1769730.97775702,1732082.56647385,1615897.63850642,1528486.6154627,1426952.708796,1772015.617885,1988202.493635,1487385.124852],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"E-Commerce","marker":{"color":"rgba(215,0,127,1)","symbol":"circle","line":{"color":"rgba(215,0,127,1)"}},"textfont":{"color":"rgba(215,0,127,1)"},"error_y":{"color":"rgba(215,0,127,1)"},"error_x":{"color":"rgba(215,0,127,1)"},"line":{"color":"rgba(215,0,127,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[1824805.71534134,2230543.27810131,4750476.25015474,2495519.72760261,2682252.720352,2075369.420214,750651.984905,392385.8607],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Hoteles","marker":{"color":"rgba(67,143,41,1)","symbol":"circle","line":{"color":"rgba(67,143,41,1)"}},"textfont":{"color":"rgba(67,143,41,1)"},"error_y":{"color":"rgba(67,143,41,1)"},"error_x":{"color":"rgba(67,143,41,1)"},"line":{"color":"rgba(67,143,41,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[7504518.09452814,8299174.20165073,6968951.48503939,7591548.31128174,9263028.716964,9266690.278962,7964051.240672,10666678.618973],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Retail","marker":{"color":"rgba(70,172,188,1)","symbol":"circle","line":{"color":"rgba(70,172,188,1)"}},"textfont":{"color":"rgba(70,172,188,1)"},"error_y":{"color":"rgba(70,172,188,1)"},"error_x":{"color":"rgba(70,172,188,1)"},"line":{"color":"rgba(70,172,188,1)"},"xaxis":"x","yaxis":"y2","frame":null},{"x":["01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020"],"y":[21154223.5221973,17751979.627951,18193703.7312682,20979481.0690836,19934612.105812,19427373.429131,20042055.509585,18165906.699005],"mode":"lines+markers","hovertemplate":["Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}","Semana: %{x}"],"type":"scatter","name":"Tecnología / telecomunicaciones","marker":{"color":"rgba(166,195,7,1)","symbol":"circle","line":{"color":"rgba(166,195,7,1)"}},"textfont":{"color":"rgba(166,195,7,1)"},"error_y":{"color":"rgba(166,195,7,1)"},"error_x":{"color":"rgba(166,195,7,1)"},"line":{"color":"rgba(166,195,7,1)"},"xaxis":"x","yaxis":"y2","frame":null}],"layout":{"xaxis":{"domain":[0,1],"automargin":true,"title":"","zeroline":false,"showline":false,"showticklabels":true,"showgrid":false,"type":"category","categoryorder":"array","categoryarray":["03-09 Feb 2019","10-16 Feb 2019","17-23 Feb 2019","24-02 Mar 2019","03-09 Mar 2019","10-16 Mar 2019","17-23 Mar 2019","24-30 Mar 2019","01-08 Feb 2020","09-15 Feb 2020","16-22 Feb 2020","23-29 Feb 2020","01-07 Mar 2020","08-14 Mar 2020","15-21 Mar 2020","22-28 Mar 2020","29-31 Mar 2020"],"anchor":"y2"},"yaxis2":{"domain":[0,0.78],"automargin":true,"showticklabels":false,"anchor":"x"},"yaxis":{"domain":[0.82,1],"automargin":true,"zeroline":false,"showline":false,"showticklabels":false,"showgrid":false,"anchor":"x"},"annotations":[],"shapes":[],"images":[],"margin":{"b":50,"l":0,"t":50,"r":0,"pad":0},"hovermode":"closest","showlegend":true,"title":{"text":"Ventas de industrias con mayores cambios"}},"attrs":{"356c7bccc5c":{"x":{},"y":{},"showlegend":true,"mode":"text","marker":{"size":15},"text":{},"textposition":"top center","hovertext":{},"hoverinfo":"text","name":"Acontecimientos","color":["black"],"symbol":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"symbols":"triangle-down","type":"scatter"},"356c4152f31":{"x":{},"y":{},"mode":"lines","hovertemplate":"Semana: %{x}","color":{},"symbol":{},"colors":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"symbols":{},"type":"scatter","inherit":true}},"source":"A","config":{"showSendToCloud":false},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"subplot":true,"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+      <ul>
+        <li>Toda la operación cayó un 4% de febrero de 2020 a marzo de 2020.</li>
+      </ul>
+    </div>
+    <div id="países" class="section level1">
+      <h1>Países</h1>
+      <div id="htmlwidget-fc1359ce2056fcaddfad" style="width:100%;height:auto;" class="datatables html-widget"></div>
+      <script type="application/json" data-for="htmlwidget-fc1359ce2056fcaddfad"> {"x": {"filter": "none", "data": [["Perú", "Argentina", "Chile", "México", "Colombia", "Brazil"], [0.0510089740335619, 0.0398996441293386, 0.015663830645832, 0.0732906948921115, 0.796485538115114, 0.0236513181840416 ], [-0.257328038304768, -0.0889900650773007, -0.0398367902548463, -0.0310729585429784, -0.024112938188054, 0.00584239121940056 ], [0.115762895893101, 0.072837111773387, 0.454584363823857, 0.303763071406177, 0.0709928875010124, - 0.217676626494772 ] ], "container": "<table class=\"display\">\n  <thead>\n    <tr>\n      <th>País<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>", "options": {"pageLength": 10, "dom": "tr", "scrollX": true, "columnDefs": [{"className": "dt-right", "targets": [1, 2, 3] }], "order": [], "autoWidth": false, "orderClasses": false, "rowCallback": "function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"} }, "evals": ["options.rowCallback"], "jsHooks": [] } </script>
+      <ul>
+        <li>YoM representa el cambio porcentual de Marzo de 2019 respecto a Marzo de 2020.</li>
+        <li>MoM represente el cambio porcentual de Febrero de 2020 respecto a Marzo de 2020.</li>
+        <li>La participación es el porcentaje que represente esa categoría respecto al total de las ventas.</li>
+      </ul>
+    </div>
+    <div id="industrias" class="section level1">
+      <h1>Industrias</h1>
+      <div id="htmlwidget-74406a7bc95bd1be1a48" style="width:100%;height:576px;" class="plotly html-widget"></div>
+      <script type="application/json" data-for="htmlwidget-74406a7bc95bd1be1a48">{"x":{"visdat":{"356c655c454a":["function () ","plotlyVisDat"]},"cur_data":"356c655c454a","attrs":{"356c655c454a":{"x":{},"y":{},"hovertemplate":{},"color":{},"colors":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":50,"l":0,"t":50,"r":0,"pad":0},"title":{"text":"Cambio (%) de Ventas por Industria (Feb a Mar 2020)"},"showlegend":false,"xaxis":{"domain":[0,1],"automargin":true,"showticklabels":true,"title":"","tickformat":"%"},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Aerolineas","Hoteles","Publicaciones y papelería","Juegos de azar","Agencias de viaje","Flores","Estaciones de servicio y autos","Servicios de transporte","Educación y deportes","Seguros","Servicios de agricultura e industrias","Servicios especializados","Arquitectura, construcción e ingeniería","Entretenimiento","Moda y calzado","Ventas en general","Miscelanea y otros","Finca raíz","Bienes para el hogar","Maquinaria, equipos y mobiliarios","Tecnología / telecomunicaciones","Servicios médicos y clínicos","Servicios financieros","Impuestos y servicios públicos","E-Commerce","Comidas, tiendas y restaurantes","Retail","Asociaciones y organizaciones"]},"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[-0.0637314675213179,-0.0680555560917513,-0.0803813094373093,-0.148140947408906,-0.16765071760679,-0.17080217458664,-0.177703029374772,-0.181414054589825,-0.191868356856633,-0.302983655464718,-0.314774637065966,-0.345330219123723,-0.386175366328229,-0.439061320396054,-0.449038928815131,-0.458072721727148,-0.508398761913924],"y":["Miscelanea y otros","Ventas en general","Moda y calzado","Entretenimiento","Arquitectura, construcción e ingeniería","Servicios especializados","Servicios de agricultura e industrias","Seguros","Educación y deportes","Servicios de transporte","Estaciones de servicio y autos","Flores","Agencias de viaje","Juegos de azar","Publicaciones y papelería","Hoteles","Aerolineas"],"hovertemplate":["Industria: Miscelanea y otros: -6%","Industria: Ventas en general: -7%","Industria: Moda y calzado: -8%","Industria: Entretenimiento: -15%","Industria: Arquitectura, construcción e ingeniería: -17%","Industria: Servicios especializados: -17%","Industria: Servicios de agricultura e industrias: -18%","Industria: Seguros: -18%","Industria: Educación y deportes: -19%","Industria: Servicios de transporte: -30%","Industria: Estaciones de servicio y autos: -31%","Industria: Flores: -35%","Industria: Agencias de viaje: -39%","Industria: Juegos de azar: -44%","Industria: Publicaciones y papelería: -45%","Industria: Hoteles: -46%","Industria: Aerolineas: -51%"],"type":"bar","orientation":"h","name":"(-%)","marker":{"color":"rgba(131,31,130,1)","line":{"color":"rgba(131,31,130,1)"}},"textfont":{"color":"rgba(131,31,130,1)"},"error_y":{"color":"rgba(131,31,130,1)"},"error_x":{"color":"rgba(131,31,130,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.849530673368722,0.415870651635155,0.336641583895457,0.223469398883862,0.139707353054212,0.114457205252318,0.105327559348279,0.102942522675109,0.0678932251738986,0.0328526516865493,0.018326021005491],"y":["Asociaciones y organizaciones","Retail","Comidas, tiendas y restaurantes","E-Commerce","Impuestos y servicios públicos","Servicios financieros","Servicios médicos y clínicos","Tecnología / telecomunicaciones","Maquinaria, equipos y mobiliarios","Bienes para el hogar","Finca raíz"],"hovertemplate":["Industria: Asociaciones y organizaciones: 85%","Industria: Retail: 42%","Industria: Comidas, tiendas y restaurantes: 34%","Industria: E-Commerce: 22%","Industria: Impuestos y servicios públicos: 14%","Industria: Servicios financieros: 11%","Industria: Servicios médicos y clínicos: 11%","Industria: Tecnología / telecomunicaciones: 10%","Industria: Maquinaria, equipos y mobiliarios: 7%","Industria: Bienes para el hogar: 3%","Industria: Finca raíz: 2%"],"type":"bar","orientation":"h","name":"(+%)","marker":{"color":"rgba(166,195,7,1)","line":{"color":"rgba(166,195,7,1)"}},"textfont":{"color":"rgba(166,195,7,1)"},"error_y":{"color":"rgba(166,195,7,1)"},"error_x":{"color":"rgba(166,195,7,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+      <div id="industrias-con-mayor-crecimiento" class="section level2">
+        <h2>Industrias con mayor crecimiento</h2>
+        <div id="htmlwidget-bb7c9241384a23ba829c" style="width:100%;height:auto;" class="datatables html-widget"></div>
+        <script type="application/json" data-for="htmlwidget-bb7c9241384a23ba829c"> {"x": {"filter": "none", "data": [["Asociaciones y organizaciones<b>*<\/b>", "Retail", "Comidas, tiendas y restaurantes", "E-Commerce", "Impuestos y servicios públicos<b>**<\/b>", "Servicios financieros", "Servicios médicos y clínicos"], [0.0157528268572082, 0.101092560430864, 0.019928046855214, 0.0191205446897395, 0.0554586981859531, 0.160412060682722, 0.0828156067932481 ], [0.849530673368722, 0.415870651635156, 0.336641583895457, 0.223469398883861, 0.139707353054212, 0.114457205252318, 0.105327559348279 ], [-0.367682797449307, 0.676430941063906, 0.552815313159113, 0.572346727069703, -0.248654729254988, 0.491705221109844, 0.37321533586368 ] ], "container": "<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Industria<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>", "options": {"pageLength": 10, "dom": "tr", "scrollX": true, "columnDefs": [{"className": "dt-right", "targets": [1, 2, 3] }], "order": [], "autoWidth": false, "orderClasses": false, "rowCallback": "function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"} }, "evals": ["options.rowCallback"], "jsHooks": [] } </script>
+        <ul>
+          <li>El consumo de alimentos, la adquisión de bienes por internet, el consumo en grandes cadenas, la solicitud
+            de productos financieros y la solicitud de servicios médicos fueron los protagonistas en crecimiento durante
+            el primer mes de pandemia. <b>Todos estos servicios son básicos o digitales</b>.</li>
+          <li><b>(*)</b> Las asociaciones y organizaciones tuvieron un incremento de Febrero 2020 a Marzo 2020
+            proveniente principalmente al vencimiento de suscripciones anuales a comienzo de mes. Sin embargo, el
+            comparativo de Marzo de 2020 frente a Marzo del año anterior fue significativamente inferior (-37%), razón
+            por la que se percibe somo un potencial perjudicado de la coyuntura.</li>
+          <li><b>(**)</b> Los pagos de impuestos realizados usualmente en Marzo de cada año se vieron postergados por
+            orden del Estado lo que justifica que haya tenido una caída significativa frente al año pasado (-25%); razón
+            por la que también resalta como un evidente perjudicado de la coyuntura.</li>
+        </ul>
+      </div>
+      <div id="industrias-con-menor-crecimiento-i" class="section level2">
+        <h2>Industrias con menor crecimiento (I)</h2>
+        <div id="htmlwidget-4519d57a2ac999a329e3" style="width:100%;height:auto;" class="datatables html-widget"></div>
+        <script type="application/json" data-for="htmlwidget-4519d57a2ac999a329e3"> {"x": {"filter": "none", "data": [["Aerolineas", "Hoteles", "Publicaciones y papelería", "Juegos de azar", "Agencias de viaje", "Flores"], [0.0597862986398828, 0.0144014105176084, 0.00487488722426017, 0.00562078948713312, 0.0188055829485164, 0.000349670824808726 ], [-0.508398761913924, -0.458072721727148, -0.449038928815131, -0.439061320396054, -0.386175366328229, - 0.345330219123723 ], [-0.563577105583077, -0.477142676542087, -0.0224202093371995, -0.141559688421154, -0.290550935931792, -0.254849025950344 ] ], "container": "<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Industria<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>", "options": {"pageLength": 10, "dom": "tr", "scrollX": true, "columnDefs": [{"className": "dt-right", "targets": [1, 2, 3] }], "order": [], "autoWidth": false, "orderClasses": false, "rowCallback": "function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"} }, "evals": ["options.rowCallback"], "jsHooks": [] } </script>
+        <ul>
+          <li>El impacto en Agencias de viaje, Hoteles y Aerolíneas fue explicado en parte por su capacidad de esparcir
+            el virus a nivel global y en parte porque esta industria depende del precio del dólar y <b>la tasa
+              representativa del mercado (TRM o USDCOP) sufrió un salto significativo durante Marzo</b> (subió más de
+            +15%); lo que encareció los servicios y cerró aún más las posibilidades de compra.</li>
+          <li>El cambio en publicaciones y papelería entre febrero y marzo proviene principalmente de la inversión
+            realizada en febrero para adquirir útiles escolares y universitarios. Igualmente, las impresiones de
+            fotocopias en las universidades se vieron afectadas por el cierre de las instituciones.</li>
+          <li>La industria de juegos de azar sufrió una caída marcada en consecuencia de la cancelación de los eventos
+            deportivos.</li>
+        </ul>
+      </div>
+      <div id="industrias-con-menor-crecimiento-ii" class="section level2">
+        <h2>Industrias con menor crecimiento (II)</h2>
+        <div id="htmlwidget-a1a387dff1a2c04a8213" style="width:100%;height:auto;" class="datatables html-widget"></div>
+        <script type="application/json" data-for="htmlwidget-a1a387dff1a2c04a8213"> {"x": {"filter": "none", "data": [["Estaciones de servicio y autos", "Servicios de transporte", "Educación y deportes", "Seguros", "Servicios de agricultura e industrias", "Servicios especializados"], [0.00199750526457506, 0.0226130236868264, 0.0362912590351925, 0.0171276946002132, 0.00374326875228761, 0.0221557738383935 ], [-0.314774637065966, -0.302983655464718, -0.191868356856632, -0.181414054589824, -0.177703029374771, - 0.17080217458664 ], [-0.23238742449784, 0.0968689315283169, 0.0724921920056736, -0.141251415218969, 0.297295908288489, - 0.0690866670620883 ] ], "container": "<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Industria<\/th>\n      <th>Participación<\/th>\n      <th>MoM<\/th>\n      <th>YoM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>", "options": {"pageLength": 10, "dom": "tr", "scrollX": true, "columnDefs": [{"className": "dt-right", "targets": [1, 2, 3] }], "order": [], "autoWidth": false, "orderClasses": false, "rowCallback": "function(row, data) {\nDTWidget.formatPercentage(this, row, data, 1, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 2, 1, 3, \",\", \".\");\nDTWidget.formatPercentage(this, row, data, 3, 1, 3, \",\", \".\");\n}"} }, "evals": ["options.rowCallback"], "jsHooks": [] } </script>
+        <ul>
+          <li>Las actividades cotidianas como el transporte, la educación, los deportes, la industria y la construcción
+            tuvieron alteraciones drásticas en su operación.</li>
+        </ul>
+      </div>
+    </div>
+    <div id="apreciaciones" class="section level1">
+      <h1>Apreciaciones</h1>
+      <p>Esta coyuntura obligó a la sociedad a reinventarse. Las empresas utilizan el teletrabajo como medio para
+        continuar sus operaciones y cada vez más negocios abren las puertas de su tienda digital para el beneficio de su
+        comunidad.</p>
+    </div>
+    <div id="ficha-técnica" class="section level1">
+      <h1>Ficha técnica</h1>
+      <ul>
+        <li>La información presentada está basada en las ventas de comercios de PayU Latam durante el mes de Marzo de
+          2019, Febrero de 2020 y Marzo de 2020. Data de <a href="https://www.payulatam.com/co/">PayU Colombia</a>,
+          análisis de <a href="http://fidelio.com.co">FIDELIO</a>.</li>
+      </ul>
+      <p><br> <br> <br></p>
+    </div>
 
 
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
 
 
-</script>
+  </div>
 
-<!-- tabsets -->
+  <script>
+    // add bootstrap table styles to pandoc tables
+    function bootstrapStylePandocTables() {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    }
+    $(document).ready(function () {
+      bootstrapStylePandocTables();
+    });
+  </script>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
+  <!-- tabsets -->
 
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
+  <script>
+    $(document).ready(function () {
+      window.buildTabsets("TOC");
+    });
 
-<!-- code folding -->
+    $(document).ready(function () {
+      $('.tabset-dropdown > .nav-tabs > li').click(function () {
+        $(this).parent().toggleClass('nav-tabs-open')
+      });
+    });
+  </script>
+
+  <!-- code folding -->
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
 
 </body>
+
 </html>
