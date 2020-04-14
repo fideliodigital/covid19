@@ -30,6 +30,11 @@
   line-height: 45px;
   /* right: 5px; */
 }
+
+#header p
+{
+  font-size: 17px;
+}
 .botonMas
 {
   margin: 0 auto;
@@ -70,6 +75,31 @@
   background-image: radial-gradient(22% 52px at 50% -30px, #FFF 98%, transparent 100%);
 }
 
+/* configura los bullets con colores */
+#países ul 
+{
+  list-style: none;
+}
+#países li::before 
+{
+  content: "......";
+  background-color: #98D6EE;
+  color: transparent;
+  margin-right: 12px;
+  border-radius: 9px;
+  width: 20px;
+  font-size: 16px;
+}
+#países li:nth-child(2n)::before 
+{
+  background-color: #6CA5D2;
+}
+#países li:nth-child(3n)::before 
+{
+  background-color: #35B0B9;
+}
+
+
 /* -------------- Generales  --------------  */
 
 body
@@ -103,7 +133,7 @@ h1
   margin-bottom: 45px;
 }
 
-li
+#países li, #overview li
 {
   font-size: 22px;
 }
