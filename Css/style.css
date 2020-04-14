@@ -30,12 +30,121 @@
   line-height: 45px;
   /* right: 5px; */
 }
+.botonMas
+{
+  margin: 0 auto;
+}
+
+.botonMas button
+{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FFF;
+  background-color: #a8c32f;
+  border: none;
+}
+
+#header h1
+{
+  text-align: left;
+}
 
 
 
+#htmlwidget-b0787fd714e60e5b0598
+{
+  display: none;
+}
+
+/* -------------- SECCIONES  --------------  */
+
+#overview li
+{
+  color: #94969b;
+}
+
+#paises
+{
+  /* muesca en la parte superior */
+  background-image: radial-gradient(22% 52px at 50% -30px, #FFF 98%, transparent 100%);
+}
+
+/* -------------- Generales  --------------  */
+
+body
+{
+  font-family: 'Open Sans';
+}
+h1
+{
+  text-align: center;
+}
+.section h1
+{
+  color: #1d57a9;  
+}
+
+.section:nth-child(2n), .section:nth-child(2n) h1
+{
+  color: white;  
+}
 
 
+.section:nth-child(2n)
+{
+  background-color: #1d57a9;  
+}
 
+.section h1
+{
+  position: relative;
+
+  margin-bottom: 45px;
+}
+
+li
+{
+  font-size: 22px;
+}
+
+
+/* puntos verdes */
+
+h1:after {
+  content: ". . .";
+  height: 10px;
+  background-repeat: no-repeat;
+  width: fit-content;
+  color: #a8c32f;
+  position: absolute;
+  top: 50px;
+  left: calc(50%);
+  font-size: 19px;
+}
+
+/* --------------Evita que toquemos el html pero modifiquemos el container  --------------  */
+
+body .main-container 
+{
+  max-width: 100%;
+}
+body .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+}
+
+.section, body #header .container-fluid{
+  padding: 0 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section
+{
+  padding: 40px 10%;
+}
 
 /* -------------- Predeterminados desde R Markdown  --------------  */
 
@@ -46,7 +155,7 @@ pre:not([class]) {
   }
 
 h1 {
-  font-size: 34px;
+  font-size: 44px;
 }
 h1.title {
   font-size: 38px;
