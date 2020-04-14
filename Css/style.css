@@ -64,7 +64,7 @@
   color: #94969b;
 }
 
-#paises
+#países
 {
   /* muesca en la parte superior */
   background-image: radial-gradient(22% 52px at 50% -30px, #FFF 98%, transparent 100%);
@@ -85,13 +85,13 @@ h1
   color: #1d57a9;  
 }
 
-.section:nth-child(2n), .section:nth-child(2n) h1
+.level1.section:nth-child(2n), .level1.section:nth-child(2n) h1
 {
   color: white;  
 }
 
 
-.section:nth-child(2n)
+.level1.section:nth-child(2n)
 {
   background-color: #1d57a9;  
 }
