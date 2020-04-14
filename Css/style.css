@@ -11,6 +11,11 @@
   background-position-x: center;
 }
 
+/* borrar segundo header */
+div#header:nth-child(2n) {
+  display: none;
+}
+
 #header .logos
 {
   margin-top: 30px;
