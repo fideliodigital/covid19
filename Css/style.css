@@ -148,6 +148,11 @@ div#header:nth-child(2n) {
 {
   color:  #026988;
 }
+/* otros ajustes de las tabñas */
+
+th.dt-right.sorting_asc {
+  text-align: center !important;
+}
 
 table {
   border-collapse: collapse;
@@ -163,7 +168,9 @@ body tr.odd {
   background-color: #EFEFEF !important;
   color: #94969b;
 }
-
+.datatables {
+  margin-bottom: 40px;
+}
 
 
 /* -------------- Generales  --------------  */
