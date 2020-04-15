@@ -5,22 +5,24 @@ body
 }
 
 /* -------------- Header  --------------  */
+/* borrar segundo header */
 
-#header
+#header {
+  display: none;
+}
+
+header #header
 {
   background-image: url("../Imagenes/background-removebg-preview.png");
   background-size: cover;
   height: 400px;
   color: white;
   margin-bottom: 30px;
-  
+  display: block;
   background-position-x: center;
 }
 
-/* borrar segundo header */
-div#header:nth-child(2n) {
-  display: none;
-}
+
 
 #header .logos
 {
@@ -170,6 +172,7 @@ body tr.odd {
 }
 .datatables {
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 
