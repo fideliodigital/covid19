@@ -71,11 +71,74 @@ header #header
   text-align: left;
 }
 
+/* evita que se pongan los 3 puntos verdes en el header */
+header h1:after 
+{
+  content: "";
+}
+
 
 
 #htmlwidget-b0787fd714e60e5b0598
 {
   display: none;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .section.level1, body #header .container-fluid 
+  {
+    padding: 0 15px;
+  }
+  .logos img:nth-child(2n) {
+    float: right;
+    margin-top: 9px;
+}
+
+    #header .logos
+    {
+      margin-bottom: 95px;
+    }
+    
+    #header .logos a {
+      color: white;
+      font-size: 19px;
+      font-weight: bold;
+      display: block;
+      margin-top: 31px;
+      position: absolute;
+      left: calc(50% - 115px);
+      
+    }
+
+    header #header {
+      
+      background-image: none;
+    }
+
+    header .container-fluid.main-container {
+      background-image: url(../Imagenes/background-removebg-preview.png);
+      background-repeat: no-repeat;
+      height: 153px;
+      background-size: cover;
+      background-position-x: center;
+      color: #94969b;
+    }
+
+    h1.title.toc-ignore {
+      color: #1d57a9;
+      font-size: 21px;
+      
+    font-weight: bold;
+  }
+    .date {
+      display: none;
+  }
+  
+
+  g.groups {
+    display: none;
+}
 }
 
 /* -------------- SECCIONES  --------------  */
