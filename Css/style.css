@@ -114,13 +114,14 @@ header h1:after
     header #header {
       
       background-image: none;
+      height: auto;
     }
 
     header .container-fluid.main-container {
       background-image: url(../Imagenes/background-removebg-preview.png);
       background-repeat: no-repeat;
-      height: 153px;
-      background-size: cover;
+      height: auto;
+      background-size: 100% 162px;
       background-position-x: center;
       color: #94969b;
     }
@@ -135,10 +136,11 @@ header h1:after
       display: none;
   }
   
-
-  g.groups {
-    display: none;
+  .botonMas 
+   {
+    margin-left: calc(50% - 85px);
 }
+  
 }
 
 /* -------------- SECCIONES  --------------  */
