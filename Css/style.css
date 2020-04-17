@@ -84,6 +84,23 @@ header h1:after
   display: none;
 }
 
+/* Borra las opciones de plotly */
+div.modebar {
+  display: none;
+}
+
+/* Texto específico para desktop*/
+div#texto_desktop {
+    display: block;
+}
+div#texto_mobile {
+    display: none;
+}
+/* Activa la leyenda de los gráficos cuando es desktop */
+g.legend {
+    display: block;
+    }
+
 @media only screen and (max-width: 768px)
 {
   .section.level1, body #header .container-fluid 
@@ -93,23 +110,23 @@ header h1:after
   .logos img:nth-child(2n) {
     float: right;
     margin-top: 9px;
-}
+  }
 
-    #header .logos
-    {
-      margin-bottom: 95px;
-    }
+  #header .logos
+  {
+    margin-bottom: 95px;
+  }
     
-    #header .logos a {
-      color: white;
-      font-size: 19px;
-      font-weight: bold;
-      display: block;
-      margin-top: 31px;
-      position: absolute;
-      left: calc(50% - 115px);
-      
-    }
+  #header .logos a {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    margin-top: 31px;
+    position: absolute;
+    left: calc(50% - 115px);
+    
+  }
 
     header #header {
       
@@ -140,6 +157,18 @@ header h1:after
    {
     margin-left: calc(50% - 85px);
 }
+
+  /* Texto específico para mobile*/
+  div#texto_desktop {
+      display: none;
+  }
+  div#texto_mobile {
+      display: block;
+  }
+  /* Desactiva la leyenda de los gráficos cuando es mobile */
+  g.legend {
+      display: none;
+      }
   
 }
 
@@ -361,35 +390,6 @@ footer a
 .contenedorLinks
 {
   padding: 117px 10%;
-}
-
-@media only screen and (max-width:768px)
-{
-  .subContenedor
-  {
-    /* background-color: #e3e3e8; */
-  background-image: url("../Imagenes/footerIconos_movil.png"); 
-  background-position-y: bottom;
-  }
-  footer a {
-    display: inline-block;
-    font-size: 12px;
-  }
-}
-
-/* -------------- Gráficas en version móvil--------------  */
-@media only screen and (max-width:768px)
-{
-  /* Borra la leyenda de los gráficos cuando es móvil */
-  g.legend 
-  {
-    display: none;
-  }
-  /* Borra las opciones de plotly cuando es móvil */
-  div.modebar 
-  {
-    display: none;
-  }
 }
 /* -------------- Predeterminados desde R Markdown  --------------  */
 
