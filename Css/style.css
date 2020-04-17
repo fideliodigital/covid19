@@ -375,21 +375,22 @@ footer a
     display: inline-block;
     font-size: 12px;
   }
+}
 
-
-  
+/* -------------- Gráficas en version móvil--------------  */
+@media only screen and (max-width:768px)
+{
   /* Borra la leyenda de los gráficos cuando es móvil */
-  g.legend {
+  g.legend 
+  {
     display: none;
   }
   /* Borra las opciones de plotly cuando es móvil */
-  div.modebar {
+  div.modebar 
+  {
     display: none;
   }
 }
-
-/* -------------- Gráifcas en version móvil--------------  */
-
 /* -------------- Predeterminados desde R Markdown  --------------  */
 
 code{white-space: pre;}
