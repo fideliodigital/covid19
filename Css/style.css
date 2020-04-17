@@ -362,6 +362,34 @@ footer a
 {
   padding: 117px 10%;
 }
+
+@media only screen and (max-width:768px)
+{
+  .subContenedor
+  {
+    /* background-color: #e3e3e8; */
+  background-image: url("../Imagenes/footerIconos_movil.png"); 
+  background-position-y: bottom;
+  }
+  footer a {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+
+  
+  /* Borra la leyenda de los gráficos cuando es móvil */
+  g.legend {
+    display: none;
+  }
+  /* Borra las opciones de plotly cuando es móvil */
+  div.modebar {
+    display: none;
+  }
+}
+
+/* -------------- Gráifcas en version móvil--------------  */
+
 /* -------------- Predeterminados desde R Markdown  --------------  */
 
 code{white-space: pre;}
