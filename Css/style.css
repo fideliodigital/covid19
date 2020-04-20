@@ -13,7 +13,9 @@ body
 
 header #header
 {
-  background-image: url("../Imagenes/background-removebg-preview.png");
+  /* background-image: url("../Imagenes/background-removebg-preview.png"); */
+  /* background-image: url("../Imagenes/backgroundVerdeEdit-removebg-preview.png"); */
+  background-image: url("../Imagenes/backgroundVerdeBlanco.png");
   background-size: cover;
   height: 400px;
   color: white;
@@ -60,8 +62,8 @@ header #header
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  color: #FFF;
-  background-color: #a8c32f;
+  color: #a8c32f;
+  background-color: white;
   border: none;
   padding: 7px;
 }
@@ -135,7 +137,9 @@ g.legend {
     }
 
     header .container-fluid.main-container {
-      background-image: url(../Imagenes/background-removebg-preview.png);
+      /* background-image: url(../Imagenes/background-removebg-preview.png); */
+  background-image: url("../Imagenes/backgroundVerdeBlanco.png");
+
       background-repeat: no-repeat;
       height: auto;
       background-size: 100% 162px;
@@ -282,7 +286,7 @@ h1
 }
 .section h1
 {
-  color: #1d57a9;  
+  color: #a8c32f;  
 }
 
 .level1.section:nth-child(2n), .level1.section:nth-child(2n) h1
