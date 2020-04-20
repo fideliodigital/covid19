@@ -14,7 +14,7 @@ body
 header #header
 {
   /* background-image: url("../Imagenes/background-removebg-preview.png"); */
-  /* background-image: url("../Imagenes/backgroundVerdeEdit-removebg-preview.png"); */
+  background-image: url("../Imagenes/backgroundVerdeEdit-removebg-preview.png");
   background-image: url("../Imagenes/backgroundVerdeBlanco.png");
   background-size: cover;
   height: 400px;
@@ -54,7 +54,7 @@ header #header
 }
 .botonMas
 {
-  margin-left: calc(50% - 62px);
+  margin-left: calc(50% - 85px);
 }
 
 .botonMas button
