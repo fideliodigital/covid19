@@ -330,6 +330,10 @@ h1:after {
   font-size: 19px;
 }
 
+a.email {
+  color: #a8c32f;
+}
+
 /* --------------Evita que toquemos el html pero modifiquemos el container  --------------  */
 
 body .main-container 
