@@ -215,7 +215,7 @@ summary {
 
 <div id="para-qué-creamos-impacto-covid19-en-el-e-commerce-américa-latina" class="section level1">
 <h1>Para qué creamos “Impacto Covid19 en el E-Commerce: América Latina”</h1>
-<p>Desde <b>PayU</b> y <b>FIDELIO</b> queremos ayudar a nuestros clientes, aliados y a la comunidad empresarial en estos días de coyuntura.</p>
+<p>Desde <a href="#SobrePayu"><b>PayU</b></a> y  <a href="#SobreFidelio"><b>FIDELIO</b></a> queremos ayudar a nuestros clientes, aliados y a la comunidad empresarial en estos días de coyuntura.</p>
 <p>Desarrollamos este reporte con el objetivo de entregar información actualizada en manos de empresarios y formuladores de política pública, que les permita tomar decisiones con base en información para hacer una gestión adecuada durante estos tiempos retadores.</p>
 <p>Este reporte muestra las tendencias del e-commerce que sirven para comprender, visualizar y proponer ideas, en general para sugerir alternativas a mitigar el impacto económico de COVID-19.</p>
 </div>
@@ -232,25 +232,29 @@ summary {
 <p>Valor procesado por la pasarela de pagos en dólares (Total Payments Volume -TPV-). Se refiere al monto en valores del agregado de la cantidad de transacciones o ítems vendidos. No pretende establecer la cantidad de productos vendidos ni la cantidad de transacciones completadas sino el valor de los pagos procesados.</p>
 </div>
 </div>
-<div id="acerca-de-payu" class="section level1">
-<h1>Acerca de PayU</h1>
+<div id="acerca-de-payu" class="section level1" >
+  <a name="SobrePayu"><h1>Acerca de PayU</h1></a>
 <p>PayU es líder en soluciones para el procesamiento de pagos online en mercados emergentes. Una empresa verdaderamente global que opera en 18 mercados y alberga 27 nacionalidades diferentes.</p>
 <p>Es la división fintech y de pagos electrónicos de Prosus, un grupo global de negocios en internet y uno de los mayores inversionistas de tecnología en el mundo. Opera e invierte en la mayoría de continentes y en mercados con potencial de crecimiento a largo plazo, Prosus construye compañías líderes de internet que empoderan a las personas y enriquecen a las comunidades.</p>
 </div>
 <div id="acerca-de-fidelio" class="section level1">
-<h1>Acerca de FIDELIO</h1>
+  <a name="SobreFidelio"><h1>Acerca de FIDELIO</h1></a>
 <p>FIDELIO es una compañía de consultoría y desarrollo de soluciones en transformación digital. Entiende que lo digital es un asunto esencialmente humano, y que por eso, la perspectiva debe centrarse en las personas, en sus retos y problemas, pero sobre todo en sus propósitos, para desde ahí proponer soluciones.</p>
 <p>Fidelio es un confidente, pragmático y dinámico, una consultora de negocios, un facilitador de transformaciones necesarias.</p>
 <p>Estamos continuamente buscando aliados para contribuir con datos, ideas, conocimientos y artículos. Si deseas contribuir a este proyecto, contáctenos en: <a href="mailto:ecommerce@fidelio.com.co" class="email">ecommerce@fidelio.com.co</a></p>
 <p><br> <a href="index.html" class="botonMas"><button>Volver al informe</button></a> <br></p>
 </div>
 
-<footer>
-  <div class="subContenedor"></div>
+<footer class="about">
+  <img class="subContenedor" width="1202" height="157" src="./Imagenes/footerIconos.png" usemap="#mapaLogos">
+  <map name="mapaLogos">
+    <area shape="rect" coords="820,10,970,157" href="https://www.payulatam.com/co" alt="PayU">
+    <area shape="rect" coords="1020,10,1170,150" href="http://fidelio.com.co/" alt="Fidelio">
+</map>
   <div class="contenedorLinks"> 
 
       <a href="https://legal.payulatam.com/ES/politica_de_privacidad.HTML">Política de privacidad</a>
-      <a href="about.html">Sobre esta iniciativa</a>
+      <a href="index.html">El informe</a>
    <br>
 </div>
 </footer>
@@ -258,46 +262,17 @@ summary {
 
 
 </div>
+ <!-- para que el mapa de imagen de los logos en el footer funcione en todas als resoluciones y no solo en la máxima -->
+<script src="./site_libs/jquery.rwdImageMaps.min.js">
 
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
+// para que el mapa de imagen de los logos en el footer funcione en todas als resoluciones y no solo en la máxima
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
 });
 
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
 </script>
 
 <!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 </body>
 </html>

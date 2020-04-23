@@ -331,7 +331,11 @@ summary {
 </div>
 
 <footer>
-  <div class="subContenedor"></div>
+  <img class="subContenedor" width="1202" height="157" src="../Imagenes/footerIconos.png" usemap="#mapaLogos">
+  <map name="mapaLogos">
+    <area shape="rect" coords="820,10,970,157" href="https://www.payulatam.com/co" alt="PayU">
+    <area shape="rect" coords="1020,10,1170,150" href="http://fidelio.com.co/" alt="Fidelio">
+</map>
   <div class="contenedorLinks"> 
 
       <a href="https://legal.payulatam.com/ES/politica_de_privacidad.HTML">Política de privacidad</a>
@@ -343,7 +347,8 @@ summary {
 
 
 </div>
-
+ <!-- para que el mapa de imagen de los logos en el footer funcione en todas als resoluciones y no solo en la máxima -->
+<script src="./site_libs/jquery.rwdImageMaps.min.js"></script>
 <script>
 
 // add bootstrap table styles to pandoc tables
@@ -354,6 +359,10 @@ $(document).ready(function () {
   bootstrapStylePandocTables();
 });
 
+// para que el mapa de imagen de los logos en el footer funcione en todas als resoluciones y no solo en la máxima
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
 
 </script>
 

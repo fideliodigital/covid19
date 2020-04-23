@@ -377,6 +377,11 @@ footer
 }
 
 
+footer.about
+{
+ background-image: none; 
+}
+
 footer a
 {
   display: inline-block;
@@ -387,18 +392,46 @@ footer a
 }
 .subContenedor
 {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   position: absolute;
   background-image: url("../Imagenes/footerIconos.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position-y: center;
+  background-position-x: right; */
+  right: 45px;
+  position: absolute;
+  top: 66px;
+
 }
+
 .contenedorLinks
 {
   padding: 117px 10%;
 }
+
+@media only screen and (max-width: 768px)
+{
+
+  .subContenedor 
+  {
+    right: -13px;
+    /* left: 10px; */
+    /* padding-left: 10%; */
+    position: absolute;
+    top: 130px;
+    max-width: fit-content;
+  }
+  .contenedorLinks
+  {
+    padding: 85px 0%;
+    text-align: center;
+}
+
+}
+
+
 /* -------------- Predeterminados desde R Markdown  --------------  */
 
 code{white-space: pre;}
