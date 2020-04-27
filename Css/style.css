@@ -160,7 +160,12 @@ g.legend {
   .botonMas 
    {
     margin-left: calc(50% - 85px);
-}
+  }
+
+  .botonMas button
+  {
+    border: 1px solid #a8c32f;
+  }
 
   /* Texto específico para mobile*/
   div#texto_desktop {
@@ -300,6 +305,11 @@ h1
   background-color: #1d57a9;  
 }
 
+
+h3, h2
+{
+  text-align: center;
+}
 .section h1
 {
   position: relative;
@@ -333,6 +343,7 @@ h1:after {
   left: calc(50%);
   font-size: 19px;
 }
+
 
 a.email {
   color: #a8c32f;
