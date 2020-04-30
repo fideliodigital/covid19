@@ -577,3 +577,7 @@ summary {
 .tabset-dropdown > .nav-tabs > li {
   display: none;
 }
+
+h4#con-respecto-al-valor-de-transacciones-procesadas {
+    text-align: center;
+}
