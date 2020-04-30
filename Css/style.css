@@ -100,6 +100,17 @@ div#texto_desktop {
 div#texto_mobile {
     display: none;
 }
+
+.ocultarEnMovil
+{
+	display: block;
+}
+.ocultarEnDesktop
+{
+	display: none;
+}
+
+
 /* Activa la leyenda de los gráficos cuando es desktop */
 g.legend {
     display: block;
@@ -107,6 +118,14 @@ g.legend {
 
 @media only screen and (max-width: 768px)
 {
+	.ocultarEnMovil
+	{
+		display: none;
+	}
+	.ocultarEnDesktop
+	{
+		display: block;
+	}
   .section.level1, body #encabezado .container-fluid 
   {
     padding: 0 15px;
