@@ -18,7 +18,7 @@ header #encabezado
   background-image: url("../Imagenes/backgroundVerdeEdit-removebg-preview.png");
   background-image: url("../Imagenes/backgroundVerdeBlanco.png");
   background-size: cover;
-  height: 1200px;
+  height: 400px;
   color: white;
   margin-bottom: 30px;
   display: block;
@@ -296,13 +296,14 @@ h1
   color: #a8c32f;  
 }
 
-.level1.section:nth-child(2n+1), .level1.section:nth-child(2n+1) h1
+
+#países, #países h1
 {
   color: white;  
 }
 
 
-.level1.section:nth-child(2n+1)
+#países
 {
   background-color: #1d57a9;  
 }
