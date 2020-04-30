@@ -6,19 +6,19 @@ body
 }
 
 /* -------------- Header  --------------  */
-/* borrar segundo header */
 
-#header {
-  display: none;
+/* Borrar el título que genera RMarkdown */
+h1.title.toc-ignore {
+    display: none;
 }
 
-header #header
+header #encabezado
 {
   /* background-image: url("../Imagenes/background-removebg-preview.png"); */
   background-image: url("../Imagenes/backgroundVerdeEdit-removebg-preview.png");
   background-image: url("../Imagenes/backgroundVerdeBlanco.png");
   background-size: cover;
-  height: 400px;
+  height: 1200px;
   color: white;
   margin-bottom: 30px;
   display: block;
@@ -27,18 +27,18 @@ header #header
 
 
 
-#header .logos
+#encabezado .logos
 {
   margin-top: 30px;
   padding-bottom: 15px;
   border-bottom: 1px solid white;
 }
-#header .logos img
+#encabezado .logos img
 {
   margin-right: 30px;
   /* height: 20px;; */
 }
-#header .logos a
+#encabezado .logos a
 {
   /* display: inline; */
   color: white;
@@ -49,7 +49,7 @@ header #header
   /* right: 5px; */
 }
 
-#header p
+#encabezado p
 {
   font-size: 17px;
 }
@@ -69,7 +69,7 @@ header #header
   padding: 7px;
 }
 
-#header h1
+#encabezado h1
 {
   text-align: left;
 }
@@ -95,6 +95,7 @@ div.modebar {
 /* Texto específico para desktop*/
 div#texto_desktop {
     display: block;
+    text-align: center;
 }
 div#texto_mobile {
     display: none;
@@ -106,7 +107,7 @@ g.legend {
 
 @media only screen and (max-width: 768px)
 {
-  .section.level1, body #header .container-fluid 
+  .section.level1, body #encabezado .container-fluid 
   {
     padding: 0 15px;
   }
@@ -115,12 +116,12 @@ g.legend {
     margin-top: 9px;
   }
 
-  #header .logos
+  #encabezado .logos
   {
     margin-bottom: 95px;
   }
     
-  #header .logos a {
+  #encabezado .logos a {
     color: white;
     font-size: 19px;
     font-weight: bold;
@@ -131,7 +132,7 @@ g.legend {
     
   }
 
-    header #header {
+    header #encabezado {
       
       background-image: none;
       height: auto;
@@ -295,13 +296,13 @@ h1
   color: #a8c32f;  
 }
 
-.level1.section:nth-child(2n), .level1.section:nth-child(2n) h1
+.level1.section:nth-child(2n+1), .level1.section:nth-child(2n+1) h1
 {
   color: white;  
 }
 
 
-.level1.section:nth-child(2n)
+.level1.section:nth-child(2n+1)
 {
   background-color: #1d57a9;  
 }
@@ -362,7 +363,7 @@ body .container-fluid {
   margin-right: auto;
 }
 
-.section.level1, body #header .container-fluid{
+.section.level1, body #encabezado .container-fluid{
   padding: 0 10%;
   margin-left: auto;
   margin-right: auto;
