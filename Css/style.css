@@ -213,7 +213,7 @@ div#texto_mobile {
 #países li::before 
 {
   content: "......";
-  background-color: #98D6EE;
+  background-color: #6CA5D2;
   color: transparent;
   margin-right: 12px;
   border-radius: 9px;
@@ -222,7 +222,7 @@ div#texto_mobile {
 }
 #países li:nth-child(2n)::before 
 {
-  background-color: #6CA5D2;
+  background-color: #35B0B9;
 }
 #países li:nth-child(3n)::before 
 {
