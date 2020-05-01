@@ -111,11 +111,6 @@ div#texto_mobile {
 }
 
 
-/* Activa la leyenda de los gráficos cuando es desktop */
-g.legend {
-    display: block;
-    }
-
 @media only screen and (max-width: 768px)
 {
 	.ocultarEnMovil
@@ -195,11 +190,6 @@ g.legend {
   div#texto_mobile {
       display: block;
   }
-  /* Desactiva la leyenda de los gráficos cuando es mobile */
-  g.legend {
-      display: none;
-      }
-  
 }
 
 /* -------------- SECCIONES  --------------  */
