@@ -578,6 +578,10 @@ summary {
   display: none;
 }
 
+.centrar {
+  text-align: center;
+}
+
 h4#con-respecto-al-valor-de-transacciones-procesadas {
     text-align: center;
 }
